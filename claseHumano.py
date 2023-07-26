@@ -1,7 +1,7 @@
 from claseOrco import Orco
 
 
-class Humano():
+class Humano:
 
     def __init__(self, nombre, armadura, nivel, ataque, ojos=2, piernas=2, dientes=32, salud=100):
         self.ojos = ojos
@@ -15,7 +15,7 @@ class Humano():
 
 
     def atacar(self, orco):
-        vida_Orco = Orco(self.salud) - self.ataque + Orco(self.armadura)
+        vida_Orco = Orco.salud - self.ataque + Orco.armadura
         print(vida_Orco)
 
     def no_vivo(self):

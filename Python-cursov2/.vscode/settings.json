@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+    "code-runner.executorMap": {
+        "python":
+        "W:\\data-science\\Learning-Data-Science\\Python-cursov2\\Scripts\\activate.bat && python -u",
+        
+    }
